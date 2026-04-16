@@ -1,0 +1,94 @@
+Mobile App - Workout Manager
+
+Extension
+	ES7+ React/Redux/React-Native snippets
+	Prettier
+	Expo Tools
+
+Work Flow
+	# 1. Create a root directory for the whole project
+		mkdir my-mobile-app
+		cd my-mobile-app
+
+	# 2. Initialize your Expo (Frontend) app
+		npx create-expo-app mobile
+
+	# 3. Create your Backend folder
+		mkdir backend
+
+	# 4. remove (tabs)
+
+	# 5. Replace codes in index.tsx
+
+	# 6. Create code files login / register / home
+
+	# 7. Update layout code with stack.screen name = "home"
+
+	backend
+
+	#8. initialize the backend
+		cd backend
+		npm init -y
+		npm install express mongoose dotenv cors bcryptjs jsonwebtoken
+
+	#9. create files and folders
+		.env
+		server.js
+		model/user.js
+		controller/userController.js
+		middleware/authMiddleware.js
+		router/userRouter.js
+
+	#10. connect routers to sever.js
+
+	#11. update package.json scripts
+
+	#12. set DNS
+
+	#13. install nodemon
+		npm install --save-dev nodemon
+
+
+	frontend
+
+	#14. connect with backend using IPs
+
+	#15. Login mnk@gmail.com with Mithi123
+
+	#16. create reset password backend and frontend functions
+
+	
+	setup gmail sender
+
+	#17.Install Nodemailer
+		npm install nodemailer
+
+
+	Brevo SMTP
+	Get your Brevo API Key
+		Log in to your Brevo account.
+		Click on your name (top right) -> SMTP & API.
+		Click Create a new API key. Name it "Workout App".
+		Copy the key.
+
+	API - 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
+
+
+
+Quick setup — if you’ve done this kind of thing before
+or	
+https://github.com/MithilaDissanayaka14/Workout-App.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+…or create a new repository on the command line
+echo "# Workout-App" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MithilaDissanayaka14/Workout-App.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/MithilaDissanayaka14/Workout-App.git
+git branch -M main
+git push -u origin main

@@ -40,7 +40,7 @@ export default function RegisterScreen() {
       newErrors.email = "Please enter a valid email";
     }
 
-    const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+    const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d\W_]{8,}$/;
     if (!form.password) {
       newErrors.password = "Password is required";
     } else if (!passwordRegex.test(form.password)) {
