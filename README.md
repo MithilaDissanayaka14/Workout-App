@@ -1,10 +1,3 @@
-Y2S2 - WMT - Mobile App : Workout manager
-
-Start the Backend : npm run dev
-Start the Frontend : npx expo start
-
-make sure you should update your pc IPv4 email in mobile/app/register.tsx , login.tsx and forget-password.tsx
-
 # Fitforge
 
 Fitforge is a comprehensive mobile fitness application built with the **MERN stack** (MongoDB, Express, Node.js, and React Native). It is designed to help users take full control of their fitness journey through personalized workout scheduling, nutrition management, and real-time progress tracking.
